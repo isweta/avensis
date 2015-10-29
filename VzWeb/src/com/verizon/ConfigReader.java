@@ -29,7 +29,7 @@ public class ConfigReader {
 	    }
 	    catch ( Exception e ) { 
 	    	
-	    	e.printStackTrace();
+	    	System.out.println(e.getMessage());;
 	    	}
 	 
 	    String videoURL = props.getProperty("elementID", "NoResource");
