@@ -12,16 +12,16 @@
 <Form>
 <table><tr>
 <td>Enter your VZID:</td>
-  <td><input type="text" name="vzid" placeholder="Enter your Vz Id" onclick="onFoucsTextField(this.name)"></td>
+  <td><input type="text" name="vzid" placeholder="Enter your Vz Id" onfocus="onFoucsTextField(this.name)"></td>
   <br></tr>
   <tr>
-   <td>Enter your EID:</td>  <td><input type="text" name="eid" placeholder="Enter your Enterprise Id" onclick="onFoucsTextField(this.name)">
+   <td>Enter your EID:</td>  <td><input type="text" name="eid" placeholder="Enter your Enterprise Id" onfocus="onFoucsTextField(this.name)">
 </td></tr>
 <br> 
 <tr>
 
 <td>Enter the Product ID:</td>
-  <td><select>
+  <td><select onfocus="onFoucsTextField(this.value)">
   <option value="p001">p001</option>
    <option value="p002">p002</option>
    <option value="p003">p003</option>
