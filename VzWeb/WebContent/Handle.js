@@ -20,6 +20,8 @@ function onFoucsTextField(name)
 
 
 }
+
+
 function getResponse()
 {
 if(req.readyState==4)
