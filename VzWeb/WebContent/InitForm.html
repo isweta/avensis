@@ -9,9 +9,9 @@
 
 
 <center><font face="arial" color="blue" size="6" ><i>Welcome to VZ ordering </i></font></center>
-<p >This is a sample paragraph text to test sensitivity. On selecting the <span class="fixed" name="para" onclick="onFoucsTextField(this.name)">"product"</span>
+<p >This is a sample paragraph text to test sensitivity. On selecting the <span class="fixed" id="para" onclick="onFoucsTextField(this.id)">"product"</span>
  text you will get additional information pop up for the same.</p>
-<Form>
+<Form action="Success.html">
 <table><tr>
 <td>Enter your VZID:</td>
 
@@ -25,7 +25,7 @@
 <tr>
 
 <td>Enter the Product ID:</td>
-  <td><select onfocus="onFoucsTextField(this.value)">
+  <td><select onclick="onFoucsTextField(this.value)">
   <option value="p001">p001</option>
    <option value="p002">p002</option>
    <option value="p003">p003</option>
